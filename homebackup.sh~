@@ -1,0 +1,5 @@
+#!bin/bash
+#this script is used to backup the users home directory
+cd /home
+
+tar -cf /var/tmp/home/homebackup.tar $USER
