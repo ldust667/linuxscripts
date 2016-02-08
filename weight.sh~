@@ -1,4 +1,5 @@
 #!/bin/bash
+#takes two parameters when ran first is current weight second is goal weight 
 CURRENTWEIGHT="$1"
 GOALWEIGHT="$2"
 DIFFRENCE=$[$CURRENTWEIGHT - $GOALWEIGHT]
