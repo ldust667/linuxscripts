@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+MYCLASSES=(TCP/IP Linux Hardware Photoshop Business\ English)
+echo ${MYCLASSES[4]}
