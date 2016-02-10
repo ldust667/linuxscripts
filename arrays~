@@ -3,3 +3,7 @@
 
 MYCLASSES=(TCP/IP Linux Hardware Photoshop Business\ English)
 echo ${MYCLASSES[4]}
+echo "---------------------------"
+echo ${MYCLASSES[*]}
+unset MYCLASSES[1]
+echo ${MYCLASSES[*]}
